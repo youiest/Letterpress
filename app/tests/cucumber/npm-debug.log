@@ -1,0 +1,154 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/tapmate/.meteor/packages/velocity_meteor-tool/.1.1.4_2.a6rodi++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node',
+1 verbose cli   '/Users/tapmate/.meteor/packages/velocity_meteor-tool/.1.1.4_2.a6rodi++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/tapmate/github/Letterpress/app/tests/cucumber',
+5 verbose install   [ '@xolvio/jasmine-expect', 'request' ] ]
+6 info preinstall cucumber-tests@1.0.0
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ '@xolvio/jasmine-expect@^1.0.0', null ]
+9 verbose cache add name=undefined spec="@xolvio/jasmine-expect@^1.0.0" args=["@xolvio/jasmine-expect@^1.0.0",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '@xolvio/jasmine-expect@^1.0.0',
+10 verbose parsed url   path: '@xolvio/jasmine-expect@^1.0.0',
+10 verbose parsed url   href: '@xolvio/jasmine-expect@^1.0.0' }
+11 verbose cache add [ 'request@2.58.0', null ]
+12 verbose cache add name=undefined spec="request@2.58.0" args=["request@2.58.0",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'request@2.58.0',
+13 verbose parsed url   path: 'request@2.58.0',
+13 verbose parsed url   href: 'request@2.58.0' }
+14 verbose cache add name="" spec="xolvio/jasmine-expect@^1.0.0" args=["","xolvio/jasmine-expect@^1.0.0"]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'xolvio/jasmine-expect@^1.0.0',
+15 verbose parsed url   path: 'xolvio/jasmine-expect@^1.0.0',
+15 verbose parsed url   href: 'xolvio/jasmine-expect@^1.0.0' }
+16 verbose cache add name="request" spec="2.58.0" args=["request","2.58.0"]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: '2.58.0',
+17 verbose parsed url   path: '2.58.0',
+17 verbose parsed url   href: '2.58.0' }
+18 verbose addNamed [ 'request', '2.58.0' ]
+19 verbose addNamed [ '2.58.0', '2.58.0' ]
+20 verbose cache add name="xolvio/jasmine-expect" spec="^1.0.0" args=["xolvio/jasmine-expect","^1.0.0"]
+21 verbose parsed url { protocol: null,
+21 verbose parsed url   slashes: null,
+21 verbose parsed url   auth: null,
+21 verbose parsed url   host: null,
+21 verbose parsed url   port: null,
+21 verbose parsed url   hostname: null,
+21 verbose parsed url   hash: null,
+21 verbose parsed url   search: null,
+21 verbose parsed url   query: null,
+21 verbose parsed url   pathname: '^1.0.0',
+21 verbose parsed url   path: '^1.0.0',
+21 verbose parsed url   href: '^1.0.0' }
+22 verbose addNamed [ 'xolvio/jasmine-expect', '^1.0.0' ]
+23 verbose addNamed [ null, '>=1.0.0-0 <2.0.0-0' ]
+24 silly lockFile 5fb2c8e3-request-2-58-0 request@2.58.0
+25 verbose lock request@2.58.0 /Users/tapmate/.npm/5fb2c8e3-request-2-58-0.lock
+26 silly lockFile 493f4551-xolvio-jasmine-expect-1-0-0 xolvio/jasmine-expect@^1.0.0
+27 verbose lock xolvio/jasmine-expect@^1.0.0 /Users/tapmate/.npm/493f4551-xolvio-jasmine-expect-1-0-0.lock
+28 silly addNameRange { name: 'xolvio/jasmine-expect',
+28 silly addNameRange   range: '>=1.0.0-0 <2.0.0-0',
+28 silly addNameRange   hasData: false }
+29 verbose request where is /xolvio/jasmine-expect
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 56d86cefa899837d
+32 verbose url raw /xolvio/jasmine-expect
+33 verbose url resolving [ 'https://registry.npmjs.org/', './xolvio/jasmine-expect' ]
+34 verbose url resolved https://registry.npmjs.org/xolvio/jasmine-expect
+35 verbose request where is https://registry.npmjs.org/xolvio/jasmine-expect
+36 info trying registry request attempt 1 at 13:23:32
+37 http GET https://registry.npmjs.org/xolvio/jasmine-expect
+38 verbose request where is /request
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /request
+41 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+42 verbose url resolved https://registry.npmjs.org/request
+43 verbose request where is https://registry.npmjs.org/request
+44 info trying registry request attempt 1 at 13:23:32
+45 verbose etag "BRI9NMIJS71R0YZOPHTLCD342"
+46 http GET https://registry.npmjs.org/request
+47 http 304 https://registry.npmjs.org/request
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Sun, 30 Aug 2015 09:23:32 GMT',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"BRI9NMIJS71R0YZOPHTLCD342"',
+48 silly registry.get     age: '58',
+48 silly registry.get     connection: 'keep-alive',
+48 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '2',
+48 silly registry.get     'x-timer': 'S1440926612.993928,VS0,VE0',
+48 silly registry.get     vary: 'Accept' } ]
+49 verbose etag https://registry.npmjs.org/request from cache
+50 silly lockFile 5fb2c8e3-request-2-58-0 request@2.58.0
+51 silly lockFile 5fb2c8e3-request-2-58-0 request@2.58.0
+52 http 404 https://registry.npmjs.org/xolvio/jasmine-expect
+53 silly registry.get cb [ 404,
+53 silly registry.get   { 'content-type': 'application/json',
+53 silly registry.get     'cache-control': 'max-age=0',
+53 silly registry.get     'content-length': '2',
+53 silly registry.get     'accept-ranges': 'bytes',
+53 silly registry.get     date: 'Sun, 30 Aug 2015 09:23:33 GMT',
+53 silly registry.get     via: '1.1 varnish',
+53 silly registry.get     age: '0',
+53 silly registry.get     connection: 'keep-alive',
+53 silly registry.get     'x-served-by': 'cache-sin6927-SIN',
+53 silly registry.get     'x-cache': 'MISS',
+53 silly registry.get     'x-cache-hits': '0',
+53 silly registry.get     'x-timer': 'S1440926612.959870,VS0,VE209' } ]
+54 silly lockFile 493f4551-xolvio-jasmine-expect-1-0-0 xolvio/jasmine-expect@^1.0.0
+55 silly lockFile 493f4551-xolvio-jasmine-expect-1-0-0 xolvio/jasmine-expect@^1.0.0
+56 error 404 Not Found
+56 error 404
+56 error 404 'xolvio/jasmine-expect' is not in the npm registry.
+56 error 404 You should bug the author to publish it
+56 error 404 It was specified as a dependency of 'cucumber-tests'
+56 error 404
+56 error 404 Note that you can also install from a
+56 error 404 tarball, folder, or http url, or git url.
+57 error System Darwin 14.3.0
+58 error command "/Users/tapmate/.meteor/packages/velocity_meteor-tool/.1.1.4_2.a6rodi++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/node" "/Users/tapmate/.meteor/packages/velocity_meteor-tool/.1.1.4_2.a6rodi++os.osx.x86_64+web.browser+web.cordova/mt-os.osx.x86_64/dev_bundle/bin/npm" "install"
+59 error cwd /Users/tapmate/github/Letterpress/app/tests/cucumber
+60 error node -v v0.10.36
+61 error npm -v 1.4.28
+62 error code E404
+63 verbose exit [ 1, true ]

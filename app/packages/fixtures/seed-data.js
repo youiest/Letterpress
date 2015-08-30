@@ -16,7 +16,7 @@ Letterpress.Utils.seedData = function () {
   });
 
   Letterpress.Collections.Pages.insert({
-    title: 'Buy',
+    title: 'Buy it now',
     template: 'info',
     path: '/buy',
     description: '' +
